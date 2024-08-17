@@ -36,7 +36,7 @@ const instructors = [
       name: 'Rudra Narayan Panda',
       designation: 'Development Export',
       image:
-        '/images/passport_image.jpg',
+        'https://drive.google.com/file/d/15O6wX5dYj1ReQwyujsGYs0dJyVsF8ZQm/view?usp=sharing',
     },
   ];
 
