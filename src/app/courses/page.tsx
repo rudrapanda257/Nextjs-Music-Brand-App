@@ -14,10 +14,10 @@ function page() {
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                   <CardItem
                     translateZ="50"
-                    className="text-xl font-bold text-neutral-600 dark:text-white"
-                    key={course.id}
+                    className="text-xl font-bold text-neutral-600 dark:text-white"    
                   >
-                    {course.title}
+                      <div key={course.id}>{course.title}</div>
+                    
                   </CardItem>
                   <CardItem
                     as="p"
@@ -25,16 +25,20 @@ function page() {
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                     key={course.id}
                   >
-                    {course.description}
+                    <div key={course.id}>{course.description}</div> 
+                    
                   </CardItem>
                   <CardItem translateZ="100" className="w-full mt-4" key={course.id}>
-                    <Image
+                  <div key={course.id}>
+                  <Image
                       src={course.image}
                       height="1000"
                       width="1000"
                       className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                       alt={course.title}
                     />
+                    </div> 
+                    
                   </CardItem>
                   <div className="flex justify-between items-center mt-20">
                     <CardItem
