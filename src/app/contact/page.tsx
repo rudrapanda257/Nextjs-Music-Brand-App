@@ -2,6 +2,7 @@
 
 import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
+import Footer from '@/components/Footer';
 
 function MusicSchoolContactUs() {
   const [email, setEmail] = useState('');
@@ -13,6 +14,7 @@ function MusicSchoolContactUs() {
   };
 
   return (
+    <>
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative">
       {' '}
       {/* Ensure the container is relative */}
@@ -56,6 +58,8 @@ function MusicSchoolContactUs() {
         </form>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 

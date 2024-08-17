@@ -1,6 +1,7 @@
 import AnimatedTab from "@/components/AnimatedTab";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Floatingdock from "@/components/Floatingdock";
+import Footer from "@/components/Footer";
 import GithubGlode from "@/components/GithubGlode";
 import Glowbar from "@/components/Glowbar";
 import  HeroSection from "@/components/HeroSection"; 
@@ -29,7 +30,7 @@ export default function Home() {
     <FeaturedCourses/> 
     <GithubGlode/>
     <AnimatedTab/>
-   
+    <Footer/>
     </main>
 
   );
